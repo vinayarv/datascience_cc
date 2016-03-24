@@ -90,18 +90,7 @@ public class tweets_cleaned {
 		}
 		content += "\n" + count + " tweets contained unicode.";
 		writeOutputToFile(oFile, content);
-		//System.out.println(content);
 		
-//		JSONArray jsonArray = new JSONArray(jsonData); 
-//		 
-//		// use
-//		for (int i = 0; i < jsonArray.length(); i++) {
-//			JSONObject jsonObject = jsonArray.getJSONObject(i);
-//		 
-//			System.out.println(jsonObject.getString("id"));
-//			System.out.println(jsonObject.getString("text"));				
-//			System.out.println(jsonObject.getString("created_at"));		
-//		}
     }						
 	
     public static void main(String[] args) {

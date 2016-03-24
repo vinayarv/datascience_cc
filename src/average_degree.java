@@ -58,12 +58,6 @@ public class average_degree {
 		        	textTagPair.add(textTag); 	
 		        }
 		        
-//		        if(eachTweetHashtag != "")
-//		        {
-//		        	text = eachTweetHashtag;
-//		        	content = text + " (timestamp: " +time + ")" + "\n";		
-//		        }	
-//		        System.out.println(content);
 		   	}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -167,18 +161,6 @@ public class average_degree {
 	   writeOutputToFile(oFile, degree);
 	   
      // print out graph again by iterating over vertices and edges
-	   
-//     for (String v : tweetGraph.vertices()) {
-//         StdOut.print(v + ": ");
-//         for (String w : tweetGraph.adjacentTo(v)) {
-//             StdOut.print(w + " ");
-//         }
-//         StdOut.println();
-//     }
-     
-//     for (String v : tweetGraph.vertices()) {
-//    	 System.out.println(v + ":" + tweetGraph.degree(v) + ":" + tweetGraph.adjacentTo(v));
-//     }
      
 	}
 
